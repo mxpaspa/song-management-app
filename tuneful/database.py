@@ -10,6 +10,4 @@ Base = declarative_base()
 Session = sessionmaker(bind=engine)
 session = Session()
 
-# Create your models here
-
 Base.metadata.create_all(engine)
